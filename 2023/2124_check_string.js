@@ -5,5 +5,5 @@
  * @return {boolean}
  */
 var checkString = function(s) {
-    return s === s.split('').sort().join("");
+    return s === s.split('').sort().join('');
 };
